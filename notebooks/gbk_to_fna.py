@@ -40,9 +40,14 @@ __maintainer__ = "Stuart Huntley"
 __status__ = "Development"
 __version__ = "0.0.1"
 
+import sys
+
+input_file = sys.argv[1]
+
+def main():
 
 
 
 if __name__ == '__main__':
     args = parse_arguments()
-    main()
+    main(input_file)
